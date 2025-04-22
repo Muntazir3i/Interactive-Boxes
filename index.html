@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="all-container">
+        <header class="heading-container">
+            <div></div>
+            <h1>YAY! It’s BOGO</h1>
+            <div></div>
+        </header>
+        <main class="main-container">
+            <section class="box box-one">
+                <header class="top-container">
+                    <div class="radio-qty-container">
+                        <input type="radio" name="box-selection" id="box-one-radio">
+                        <label for="box-one-radio">
+                            <div class="qty-details">
+                                <p class="unit">1 Unit <span class="discount-perc">10% Off</span></p>
+                                <p class="standard">Standard Price</p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="price-container">
+                        <p class="disc-price">$10.00 USD</p>
+                        <p class="org-price">$24.00 USD</p>
+                    </div>
+                </header>
+                <div class="bottom-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#1</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#2</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="box box-two">
+                <header class="top-container">
+                    <div class="radio-qty-container">
+                        <input type="radio" name="box-selection" id="box-two-radio">
+                        <label for="box-two-radio">
+                            <div class="qty-details">
+                                <p class="unit">2 Unit <span class="discount-perc">20% Off</span></p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="price-container">
+                        <p class="popular">Most Popular</p>
+                        <p class="disc-price">$18.00 USD</p>
+                        <p class="org-price">$34.00 USD</p>
+                    </div>
+                </header>
+                <div class="bottom-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#1</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#2</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="box box-three">
+                <header class="top-container">
+                    <div class="radio-qty-container">
+                        <input type="radio" name="box-selection" id="box-three-radio">
+                        <label for="box-three-radio">
+                            <div class="qty-details">
+                                <p class="unit">3 Unit <span class="discount-perc">30% Off</span></p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="price-container">
+                        <p class="disc-price">$24.00 USD</p>
+                        <p class="org-price">$54.00 USD</p>
+                    </div>
+                </header>
+                <div class="bottom-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#1</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#2</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="color" id="color">
+                                        <option value="black">Black</option>
+                                        <option value="red">Red</option>
+                                        <option value="white">White</option>
+                                        <option value="purple">Purple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="total-btn-container">
+            <div class="total-container">
+                <p class="delivery">Free Delivery</p>
+                <p class="total">Total : $18.00 USD</p>
+            </div>
+            <div class="btn-container">
+                <button class="btn"><span class="plus">+</span> Add</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    div{
+        width: 30%;
+        border: 1px solid rgb(199, 199, 199);
+    }
+    h1{
+        font-size: clamp(1rem, 2.5vw, 2rem);
+        color: #FF6B82;
+        font-weight: 600;
+        /* width: 50%; */
+    }
+}
+
+body{
+    padding: 10px;
+}
+
+.heading-container{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box{
+    border: 1px solid rgb(197, 197, 197);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.radio-qty-container{
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-container{
+    /* border: 1px solid black; */
+    padding: 15px 15px;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qty-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    .unit{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .standard{
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+}
+
+
+.price-container{
+    .disc-price{
+        font-size: 14.46px;
+        font-weight: 600;
+    }
+
+    .org-price{
+        font-size: 10px;
+        font-weight: 300;
+        color: gray;
+        text-decoration: line-through;
+    }
+}
+
+.discount-perc{
+    background-color:  #FF6B82;
+    color: white;
+    font-weight: 400;
+    padding:  1px 5px;
+    border-radius: 1px;
+}
+
+
+table{
+
+    th{
+        text-align: start;
+    }
+
+    tbody{
+        tr{
+            margin-top: 10px;
+        }
+    }
+
+}
+
+.bottom-container{
+    display: none
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+
+    .delivery{
+        color:#FF6B82;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .total{
+        font-size: 14px;
+    }
+
+
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF6B82;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.total-btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.plus{
+    font-weight: bolder;
+}
+
+.popular{
+    background-color: #FF6B82;
+    color: white;
+    padding: 1px 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.all-container{
+    width: 100%;
+}
+
+
+@media (width > 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .all-container{
+        width: 50%;
+        max-width: 609px;
+    }
+}
