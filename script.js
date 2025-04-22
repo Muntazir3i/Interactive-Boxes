@@ -1,5 +1,6 @@
 // Select all boxes
 const boxes = document.querySelectorAll('.box');
+const btn = document.getElementsByTagName('button')
 
 // Select the total element where the total value will be displayed
 const totalElement = document.querySelector('.total');
@@ -55,3 +56,9 @@ boxes.forEach((box) => {
     }
   });
 });
+
+// show alert on btn click
+
+btn[0].addEventListener('click',()=>{
+    alert("Added To Cart")
+})
